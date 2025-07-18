@@ -29,3 +29,6 @@ This library implements concepts from algebraic topology:
 - Comprehensive validation of operations and indices
 - STL-compatible iterators for range-based operations
 - Utility methods for common mathematical operations
+
+
+(the boundary operations are still work in progress)
