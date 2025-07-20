@@ -23,9 +23,6 @@ namespace algebra {
         explicit ZMod(int x) : value_(normalize(x)) {}
         ZMod(const ZMod& other) : value_(other.value_) {}
 
-        // Destructor
-        ~ZMod() = default;
-
         // Getters
         unsigned getValue() const { return value_; }
 
@@ -98,9 +95,6 @@ namespace algebra {
         ZMod() : value_(0) {}
         explicit ZMod(int x) : value_(x) {}
         ZMod(const ZMod& other) : value_(other.value_) {}
-
-        // Destructor
-        ~ZMod() = default;
 
         // Getters
         int getValue() const { return value_; }
