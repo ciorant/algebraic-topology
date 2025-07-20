@@ -69,9 +69,6 @@ namespace algebra {
         WolnyModul(const std::vector<S>& generators, const std::vector<ZMod<p>>& coefficients)
             : generators_(generators), coefficients_(coefficients), is_normalized_(false) {}
 
-        // Destructor
-        virtual ~WolnyModul() = default;
-
         // Getters
         const std::vector<S>& getGenerators() const {
             normalize();
